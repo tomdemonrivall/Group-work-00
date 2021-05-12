@@ -4,19 +4,23 @@
 .container {
   background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position:top;
+  background-size: contain;
   display: flex;
   justify-content: center;
   height: 1650px;
 }
-/* .container2 {
-    background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    display: flex;
-    justify-content: center;
-    height: 650px;
-  } */
+
 body {
   height: 3000px;
+}
+.footer-bg{
+  background-image:url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
+  transform:rotate(180deg); ;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  height: 1650px
 }
