@@ -13,9 +13,7 @@
   display: flex;
   justify-content: space-between;
 }
-.margin-r {
-  margin-right: 50px;
-}
+
 
 .no-bullet {
   list-style-type: none;
@@ -34,7 +32,7 @@ li {
 }
 
 .summary {
-  width: 500px;
+  width: 450px;
 }
 
 .border {
