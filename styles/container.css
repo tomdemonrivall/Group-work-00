@@ -45,8 +45,8 @@ body {
   background-repeat: no-repeat;
   background-position:top;
   background-size: contain;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   height: 1650px;
 }
 .footer-bg{
