@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services {
+    max-width: 250px;
+    background-color: #ffffff;
+    padding: 2em 1em;
+    box-shadow: 5px 5px 5px rgb(114, 112, 112);
+    text-align: center;
+}
+.avantages{
+    width:40%;
+}
+.title > h1 {
+    text-align: center;
+}
+#Features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services img {
+ background-image: url("/images/services-shape.svg");
+} 
+.title {
+    margin-bottom: 2em;
+}
