@@ -1,0 +1,42 @@
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.h1 {
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.h2 {
+    word-spacing: 3px;
+}
+
+.button-getstarted {
+    font-family: 'font-awesome', sans-serif;
+    font-size: 17px;
+    width: 147px;
+    height: 55px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,199,193,1) 0%, rgba(18,155,209,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    margin-top: 30px;
+}
+
+.header-hero {
+    width: 564px;
+    padding-top: 64px;
+    padding-bottom: 90px;
+}
+
+.clients-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
