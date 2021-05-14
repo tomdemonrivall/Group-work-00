@@ -17,8 +17,6 @@
   display: flex;
   justify-content: space-between;
 }
-
-
 .no-bullet {
   list-style-type: none;
 }
