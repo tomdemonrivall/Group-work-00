@@ -4,15 +4,18 @@
 }
 body {
   height: 3000px;
+  margin: 0;
 }
 .center {
   display: flex;
   justify-content: center;
 }
 .container {
+
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+
 }
 .services {
   max-width: 250px;
@@ -21,11 +24,13 @@ body {
   box-shadow: 5px 5px 5px rgb(114, 112, 112);
   text-align: center;
 }
-.avantages {
-  width: 40%;
+
+.avantages{
+    width:80%;
 }
-.title > h1 {
-  text-align: center;
+.title > h2 {
+    text-align: center;
+
 }
 #Features {
   display: flex;
@@ -47,11 +52,13 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+
   /* height: 3600px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 .footer-bg {
   background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
@@ -60,6 +67,12 @@ body {
   -moz-transform: rotate(180deg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
-  height: 1650px;
+
+  background-position:bottom;
+  height: 1650px
 }
+
+.clean {
+  color: black;
+}
+

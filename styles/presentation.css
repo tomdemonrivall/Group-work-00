@@ -1,9 +1,26 @@
+@font-face {
+    font-family: 'font-awesome';
+    src: url('fonts/fontawesome-webfont.eot'); 
+    src: url('fonts/FontAwesome.otf');
+    src: url('fonts/fontawesome-webfont.ttf');
+    src: url('fonts/fontawesome-webfont.woff');
+    src: url('fonts/fontawesome-webfont.woff2');
+    src: url('fontawesome-webfont.svg');
+}
+
+#section1 {
+    width: 100%;
+}
+
+
 .presentation {
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 16px;
+  /*font-size: 16px;*/
+  box-sizing: border-box;
 }
 
 .h1 {
@@ -13,6 +30,23 @@
 
 .h2 {
   word-spacing: 3px;
+
+
+}
+
+.app {
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.basic, .h4p {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 10px;
+
 }
 
 .button-getstarted {
@@ -39,10 +73,24 @@
   padding-bottom: 90px;
 }
 
-.clients-logo {
+
+
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+   
+   
+}
+
+.line1 {
+    border: 3px solid rgb(253,125,114);
+    width: 160px;
+    margin-left: 580px;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+
