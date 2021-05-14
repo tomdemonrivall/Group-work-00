@@ -1,38 +1,48 @@
 @font-face {
-    font-family: 'font-awesome';
-    src: url('fonts/fontawesome-webfont.eot'); 
-    src: url('fonts/FontAwesome.otf');
-    src: url('fonts/fontawesome-webfont.ttf');
-    src: url('fonts/fontawesome-webfont.woff');
-    src: url('fonts/fontawesome-webfont.woff2');
-    src: url('fontawesome-webfont.svg');
+  font-family: "font-awesome";
+  src: url("fonts/fontawesome-webfont.eot");
+  src: url("fonts/FontAwesome.otf");
+  src: url("fonts/fontawesome-webfont.ttf");
+  src: url("fonts/fontawesome-webfont.woff");
+  src: url("fonts/fontawesome-webfont.woff2");
+  src: url("fontawesome-webfont.svg");
 }
 
 #section1 {
-    width: 100%;
+  width: 100%;
 }
 
-
 .presentation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* font-size: 16px; */
+}
+
+.h1 {
+  font-weight: bold;
+  word-spacing: 3px;
+}
+
+.h2 {
+  word-spacing: 3px;
 }
 
 .app {
-    font-weight: bold;
-    color: white;
-    font-size: 50px;
-    margin-bottom: 50px;
-    margin-top: 0;
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
-.basic, .h4p {
-    color: white;
-    margin-bottom: 0;
-    margin-top: 10px;
+.basic,
+.h4p {
+  color: white;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .button-getstarted {
@@ -55,16 +65,16 @@
 }
 
 .clients-logo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
 .line1 {
-    border: 3px solid rgb(253,125,114);
-    width: 160px;
-    margin-left: 580px;
-    margin-bottom: 12px;
-    margin-top: 50px;
+  border: 3px solid rgb(253, 125, 114);
+  width: 160px;
+  margin-left: 580px;
+  margin-bottom: 12px;
+  margin-top: 50px;
 }

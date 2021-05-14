@@ -1,65 +1,76 @@
 #section1 {
   width: 66%;
+  color: white;
 }
+
 body {
-  height: 3000px;
+  /* height: 3000px; */
   margin: 0;
 }
-.center{
+.center {
   display: flex;
   justify-content: center;
 }
 .container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /*flex-wrap: nowrap;
+    flex-direction: row; */
 }
 .services {
-    max-width: 250px;
-    background-color: #ffffff;
-    padding: 2em 1em;
-    box-shadow: 5px 5px 5px rgb(114, 112, 112);
-    text-align: center;
+  max-width: 250px;
+  background-color: #ffffff;
+  padding: 2em 1em;
+  box-shadow: 5px 5px 5px rgb(114, 112, 112);
+  text-align: center;
 }
-.avantages{
-    width:80%;
+
+.title > h1 {
+  text-align: center;
+}
+.avantages {
+  width: 80%;
 }
 .title > h2 {
-    text-align: center;
+  text-align: center;
 }
 #Features {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .services img {
- background-image: url("/images/services-shape.svg");
-} 
+  background-image: url("/images/services-shape.svg");
+}
 .title {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 .section1 {
   width: 66%;
+  color: white;
 }
 .main-container {
   background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
   background-repeat: no-repeat;
-  background-position:top;
+  background-position: top;
   background-size: contain;
-  /* display: flex;
-  justify-content: center; */
-  height: 973px;
+  /* height: 3600px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 973px; */
 }
-.footer-bg{
-  background-image:url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
-  transform:rotate(180deg); ;
-  -webkit-transform:rotate(180deg);
-  -moz-transform:rotate(180deg);
+.footer-bg {
+  background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position:bottom;
-  height: 1650px
+  background-position: bottom;
+  height: 1650px;
 }
 
 .clean {
