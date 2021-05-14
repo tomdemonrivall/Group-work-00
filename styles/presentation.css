@@ -76,7 +76,6 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .line1 {
   border: 3px solid rgb(253, 125, 114);
   width: 160px;
