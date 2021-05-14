@@ -9,6 +9,10 @@
   display: flex;
   flex-direction: row;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
 .around {
   display: flex;
   justify-content: space-between;
