@@ -18,6 +18,7 @@
   justify-content: space-between;
 }
 
+
 .no-bullet {
   list-style-type: none;
 }
@@ -44,7 +45,4 @@ li {
 
 .align-c {
   align-items: center;
-}
-.nav {
-  margin-bottom: 50px;
 }
