@@ -69,7 +69,7 @@
 
 .darkblue {
     background: rgb(50,75,214);
-    background: linear-gradient(90deg, rgba(50,75,214,1) 0%, rgba(49,92,222,1) 50%, rgb(48, 96, 158) 100%); 
+    background: linear-gradient(90deg, rgba(50,75,214,1) 0%, rgba(49,92,222,1) 50%, #324DD7 100%); 
 }
 
 .buttonblue, .buttonpink, .buttondarkblue{
