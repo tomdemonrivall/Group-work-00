@@ -54,7 +54,7 @@
     color: white;
     border: none;
     border-radius: 80px;
-    transform: rotate(-30deg);
+    transform: rotate(-45deg);
 }
 
 .blue {
@@ -69,6 +69,11 @@
 
 .darkblue {
     background: rgb(50,75,214);
-    background: linear-gradient(90deg, rgba(50,75,214,1) 0%, rgba(49,92,222,1) 50%, rgba(194,218,250,1) 100%); 
+    background: linear-gradient(90deg, rgba(50,75,214,1) 0%, rgba(49,92,222,1) 50%, rgb(48, 96, 158) 100%); 
+}
+
+.buttonblue, .buttonpink, .buttondarkblue{
+    transform: rotate(45deg);
+    font-size: 12px;
 }
 

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'font-awesome';
+    src: url('fonts/fontawesome-webfont.eot'); 
+    src: url('fonts/FontAwesome.otf');
+    src: url('fonts/fontawesome-webfont.ttf');
+    src: url('fonts/fontawesome-webfont.woff');
+    src: url('fonts/fontawesome-webfont.woff2');
+    src: url('fontawesome-webfont.svg');
+}
+
+#Blog {
+    width: 66%;
+}
+
+.tittle, .h2tititle {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.blogposts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.line9 {
+    border: 3px solid rgb(253,125,114);
+    width: 160px;
+}
+
+.blog {
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.link {
+    color: #FE7E71;
+}
+
+.pblog {
+    color: #373737;
+    text-align: left;
+}
+
+.padmin {
+    font-family: "font-awesome", sans-serif;
+    color: gray;
+    font-size: 16px;
+}
+
+
