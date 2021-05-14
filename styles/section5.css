@@ -1,7 +1,8 @@
-<<<<<<< HEAD
+
 .about3 img {
     max-width:600px;
 }
+
 #section5.container {
     margin-top: 50px;
     align-items: center;
@@ -24,30 +25,10 @@
     margin-left: 0;
     
 }
-=======
-.about3 img {
-    max-width:600px;
-}
-#section5.container {
-    margin-top: 50px;
-    align-items: center;
-    margin-left: 80px;
-  }
-  #section5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-image: url(https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about-shape-2.svg);
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: 439px;
-    background-position: right center;
-    margin-top: 50px;
+margin-top: 50px;
     box-sizing: border-box;
 }
 
 .image-related.about3 {
-    margin-left: 0;
-    
+    margin-left: 0;   
 }
->>>>>>> 2f8450e518c53a8d6a8fe4b326fe823aa54324ef
