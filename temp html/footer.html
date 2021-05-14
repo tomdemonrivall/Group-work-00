@@ -40,7 +40,11 @@
             <li><a href="#">Why</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Blog</a></li>
-            <li><button class="button-download" />Download Now</li>
+            <li
+              ><a href="#"
+                ><button class="button-download" /> Download Now</a
+              ></li
+            >
           </ul>
         </div>
 
@@ -234,11 +238,31 @@
         </div>
       </div>
 
-      <div id="section10">
-        <div class="subscribe"> </div>
-      </div>
+      <div id="section10"> </div>
       <footer id="section11">
-        <div class="footer row border">
+        <div class="subscribe">
+          <div class="font-plus half">
+            <b>Subscribe Our Newsletter</b><br />
+            get regular Updates
+          </div>
+          <!-- <div class="border email-form">      -->
+          <div id="email-form" class="half row">
+            <input
+              id="emailAddress"
+              class="email"
+              type="email"
+              placeholder="Enter Email"
+              list="defaultEmails"
+            />
+            <!-- size="64" -->
+            <!-- maxlength="100px" -->
+            <!-- multiple -->
+            <!-- /> -->
+            <a href="#"><button class="button-subscribe"/ >Subscribe</a>
+          </div>
+          <!-- </div> -->
+        </div>
+        <div class="footer row">
           <div class="column quarter">
             <logo>
               <img class="logo-title" src="images/logo.svg" alt="logo" />

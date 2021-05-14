@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: 800px;
+  /* height: 800px; */
   width: 100%;
 }
 
@@ -21,7 +21,7 @@
   width: 66%;
   color: white;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .row {
   display: flex;
@@ -91,4 +91,43 @@
 }
 .block {
   display: block;
+}
+.subscribe {
+  width: 66%;
+  height: 180px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  box-shadow: 5px -5px 10px lightgrey;
+  font-size: 120%;
+}
+
+.font-plus {
+  font-size: 150%;
+}
+.email {
+  height: 50px;
+  border: none;
+  width: 75%;
+}
+#email-form {
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+}
+.half {
+  width: 45%;
+  margin: 5px;
+}
+input[type="email" i] {
+  padding: 0px;
+  padding-left: 25px;
+  font-size: 85%;
+}
+
+input[type="email" i]:focus {
+  outline-width: 0;
 }
