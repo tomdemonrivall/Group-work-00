@@ -74,7 +74,7 @@
 .line1 {
   border: 3px solid rgb(253, 125, 114);
   width: 160px;
-  margin-left: 580px;
-  margin-bottom: 12px;
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
