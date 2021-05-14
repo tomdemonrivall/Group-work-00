@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'font-awesome';
+    src: url('fonts/fontawesome-webfont.eot'); 
+    src: url('fonts/FontAwesome.otf');
+    src: url('fonts/fontawesome-webfont.ttf');
+    src: url('fonts/fontawesome-webfont.woff');
+    src: url('fonts/fontawesome-webfont.woff2');
+    src: url('fontawesome-webfont.svg');
+}
+
+#section6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.line6 {
+    border: 3px solid rgb(253,125,114);
+    width: 160px;
+}
+
+.description6 {
+    width: 550px;
+    margin-left: 400px;
+    margin-right: 0;
+}
+
+.position {
+    background-image: url(https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/dots.svg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 500px 500px;
+    width: 300px;
+    height: 373px;
+    margin-left: 0;
+}
+
+.img2 {
+    width: 400px;
+    height: 287px;
+    margin-left: 31px;
+    margin-top: 50px;
+}
+
+.blue, .pink, .darkblue {
+    font-family: 'font-awesome', sans-serif;
+    font-size: 17px;
+    width: 120px;
+    height: 90px;
+    color: white;
+    border: none;
+    border-radius: 80px;
+    transform: rotate(-30deg);
+}
+
+.blue {
+    background: rgb(102,153,201);
+    background: linear-gradient(90deg, rgba(102,153,201,0.5578431201582195) 0%, rgba(26,166,206,1) 0%, rgba(0,212,255,1) 54%);
+}
+
+.pink {
+    background: rgb(102,153,201);
+    background: linear-gradient(90deg, rgba(102,153,201,0.5578431201582195) 0%, rgba(254,127,111,1) 0%, rgba(254,118,134,1) 100%); 
+}
+
+.darkblue {
+    background: rgb(50,75,214);
+    background: linear-gradient(90deg, rgba(50,75,214,1) 0%, rgba(49,92,222,1) 50%, rgba(194,218,250,1) 100%); 
+}
+
