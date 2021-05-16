@@ -6,6 +6,8 @@
 body {
   /* height: 3000px; */
   margin: 0;
+  font-family: 'font-awesome', sans-serif;
+  /* border-right: 0; */
 }
 .center {
   display: flex;
@@ -25,6 +27,14 @@ body {
   box-shadow: 5px 5px 5px rgb(114, 112, 112);
   text-align: center;
   margin-top: 55px;
+}
+
+.services h2 {
+  font-size: 25px;
+}
+
+.services a {
+  font-size: 13px;
 }
 
 .title > h1 {
