@@ -65,6 +65,8 @@ body {
 }
 .section1 {
   color: white;
+   margin-bottom: 5em;
+}
 }
 .main-container {
   /* CSS moved yo the background.css file
