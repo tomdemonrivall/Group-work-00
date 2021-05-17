@@ -43,12 +43,12 @@ p {
 
 .image-related {
   margin-left: 85px;
-/* wavy background moved to the background.css; */
+  /* wavy background moved to the background.css; */
   /* background-image: url("../images/about-shape-1.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
-  background-position: right center;
-} */
+  background-position: right center;*/
+}
 
 /* Button Try it Free */
 .button-try {
