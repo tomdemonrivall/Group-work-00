@@ -10,9 +10,11 @@
 }
 
 body {
-  margin: 0;
-  font-family: "font-awesome", sans-serif;
-  /* border-right: 0; */
+  /* height: 3000px; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: auto;
 }
 .center {
   display: flex;

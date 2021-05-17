@@ -6,8 +6,8 @@
 #section5.container {
     margin-top: 50px;
     align-items: center;
-    margin-left: 80px;
   }
+
   #section5 {
     display: flex;
     flex-direction: row;
@@ -16,8 +16,7 @@
     box-sizing: border-box;
 }
 
-.image-related.about3 {
-    margin-left: 0;
+.image-related.about3 {  
     background-image: url(https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about-shape-2.svg);
     background-repeat: no-repeat;
     background-attachment: local;
@@ -26,3 +25,4 @@
     margin-top: 50px;
     box-sizing: border-box;
 }
+
