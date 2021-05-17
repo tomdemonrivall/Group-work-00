@@ -4,10 +4,11 @@
     margin: 0;
     overflow-x: hidden;
     }
-    .section1 {
+    .presentation {
     width: 100%;
     border: none;
     box-sizing: border-box;
+    background-color: red ;
     }
     .h1, .h4p {
     text-align: center;
@@ -30,7 +31,27 @@
 }
 /*End section1-presentation-responsive*/
 
-
+/*Start section3-responsive*/
+@media screen and (max-width: 650px) {
+    #section3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    .image1 {
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 1;
+    }
+    .description3 {
+    text-align: left;
+    margin-left: 50px;
+    }
+}
+/*Start section3-responsive*/
 
 
 /*Start section4-responsive*/
@@ -50,7 +71,6 @@
     background: none;
     background-image: none;
     text-align: left;
-    /* background: red; */
     }
 
     .image-related4 {
@@ -104,7 +124,7 @@
     }
     button {
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
     }
 }
 /*End section6-responsive*/
@@ -131,6 +151,7 @@
 
 /*Start section8-responsive*/
 @media screen and (max-width: 650px) {
+    
 }
 /*End section8-responsive*/
 
@@ -138,18 +159,18 @@
 
 /*Start section9-responsive*/
 @media screen and (max-width: 650px) {
-    .blogposts {
+    .blogpost {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     }
     .blocks {
-    padding-left: 93px;
+    /* padding-left: 93px;
     margin-bottom: 60px;
-    margin-top: 30px;
+    margin-top: 30px; */
     }
     .tittle {
     padding-left: 50px;
@@ -159,15 +180,15 @@
 
 
 
-/*bg-top*/
+/* bg-top*/
 @media screen and (max-width: 650px) {
 .top-and-bottom-bg {
     background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg"),
       url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/footer-bg.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom;
-    /* background-size: 1900px; */
+    background-size: 1900px;
     background-size: 2000px;
   }
 }
-/*bg-top*/
+/*bg-top */
