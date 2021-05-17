@@ -71,8 +71,13 @@ color: #fe7f6c;
 padding: 0 3px;
 opacity: 0.5;
 }
-.fas.fa-circle.first {
+/* .fas.fa-circle.first {
     color: #fe7f6c;
     padding: 0 3px;
     opacity: 1 !important;
+    } */
+
+ .nav-reviews > li > a >i:hover {
+        color: #fe7f6c;
+        opacity: 1 !important;
     }
