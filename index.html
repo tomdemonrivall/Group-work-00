@@ -40,22 +40,34 @@
   </head>
   <body>
     <div class="main-container top-and-bottom-bg">
-      <div id="section">
-        <div class="section1 subsection border">
-          <div class="nav around align-c">
-            <logo>
-              <img class="logo.svg" src="images/logo.svg" alt="logo" />
-            </logo>
-            <ul class="summary row around align-c">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Why</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><button class="button-download" />Download Now</li>
-            </ul>
-          </div>
+      <div class="section1 border">
+        <div class="nav around align-c">
+          <logo>
+            <img class="logo.svg" src="images/logo.svg" alt="logo" />
+          </logo>
+          <ul class="summary row around align-c topnav" id="myTopnav">
+            <a href="#home" class="active home">Home</a>
+            <a href="#news">Features</a>
+            <a href="#contact">About</a>
+            <a href="#home" >Why</a>
+            <a href="#news">Team</a>
+            <a href="#contact">Blog</a>
+            <a class="button-d" href="#"><button class="button-download">Download</button></a>
+            
+            
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </ul>
+        </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
 
           <div class="presentation">
             <h2 class="h2">Basic - SaaS Landing Page</h2>
