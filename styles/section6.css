@@ -16,16 +16,11 @@
     box-sizing: border-box;
     align-items: center;
     margin-left: 10px;
-}
-
-.line6 {
-    border: 3px solid rgb(253,125,114);
-    width: 160px;
+    max-width: 80%;
 }
 
 .description6 {
     width: 550px;
-    margin-left: 250px;
     margin-right: 0;
 }
 
@@ -36,7 +31,8 @@
     background-size: 500px 500px;
     width: 300px;
     height: 373px;
-    margin-left: 0;
+    margin-right: 250px;
+    margin-left: 50px;
 }
 
 .img2 {
@@ -47,7 +43,6 @@
 }
 
 .blue, .pink, .darkblue {
-    font-family: 'font-awesome', sans-serif;
     font-size: 17px;
     width: 120px;
     height: 90px;
@@ -55,6 +50,7 @@
     border: none;
     border-radius: 80px;
     transform: rotate(-45deg);
+    margin-top: 30px;
 }
 
 .blue {
@@ -72,7 +68,7 @@
     background: linear-gradient(90deg, rgba(50,75,214,1) 0%, rgba(49,92,222,1) 50%, #324DD7 100%); 
 }
 
-.buttonblue, .buttonpink, .buttondarkblue{
+.buttonblue, .buttonpink, .buttondarkblue {
     transform: rotate(45deg);
     font-size: 12px;
 }

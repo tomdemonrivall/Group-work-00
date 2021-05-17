@@ -8,10 +8,6 @@
   src: url("fontawesome-webfont.svg");
 }
 
-#section1 {
-  width: 100%;
-}
-
 .presentation {
   display: flex;
   justify-content: center;
@@ -19,27 +15,17 @@
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 55px;
-  /* font-size: 16px; */
 }
 
 .h1 {
   font-weight: bold;
-  word-spacing: 3px;
-}
-
-.h2 {
-  word-spacing: 3px;
-}
-
-.app {
-  font-weight: bold;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
   margin-bottom: 50px;
   margin-top: 0;
 }
 
-.basic,
+.h2,
 .h4p {
   color: white;
   margin-bottom: 0;
@@ -47,15 +33,6 @@
 }
 
 .button-getstarted {
-    font-family: 'font-awesome', sans-serif;
-    font-size: 17px;
-    width: 147px;
-    height: 55px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,199,193,1) 0%, rgba(18,155,209,1) 100%);
-    color: white;
-    border: none;
-    border-radius: 9px;
     margin-top: 30px;
 }
 

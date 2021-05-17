@@ -5,10 +5,16 @@
 
 body {
   /* height: 3000px; */
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     width: 100%;
     overflow: auto;
+=======
+  margin: 0;
+  font-family: 'font-awesome', sans-serif;
+  /* border-right: 0; */
+>>>>>>> 901294537c85919c46f8eb58723dc76ace8e4423
 }
 .center {
   display: flex;
@@ -28,6 +34,14 @@ body {
   box-shadow: 5px 10px 10px rgb(247, 247, 247);
   text-align: center;
   margin-top: 55px;
+}
+
+.services h2 {
+  font-size: 25px;
+}
+
+.services a {
+  font-size: 13px;
 }
 
 .title > h1 {
