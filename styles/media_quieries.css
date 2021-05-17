@@ -15,11 +15,11 @@
   }
   .h4p {
     font-size: 25px;
-  }
-  .header-hero {
-    width: 200px;
-  }
-  .clients-logo {
+    }
+    .header-hero {
+    width: 500px;
+    }
+    .clients-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@
 
 /*Start section6-responsive*/
 @media screen and (max-width: 650px) {
-  #section6 {
+    .subsection {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -112,7 +112,7 @@
     width: 150px;
     height: 186, 5px;
     margin-left: 0;
-    margin-right: 100px;
+    margin-right: 266px;
     margin-top: 50px;
   }
   .description6 {
@@ -142,6 +142,40 @@
 }
 /*Start section7-responsive*/
 
+
+/*Start section9-responsive*/
+@media screen and (max-width: 650px) {
+    .blogpost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    }
+    .blocks {
+    padding-left: 93px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    }
+    .tittle {
+    padding-left: 50px;
+    }
+}
+
+/*End section9-responsive*/
+
+
+/*Start footer-responsive*/
+
+/*End footer-responsive*/
+
+
+
+/*bg-top*/
+@media screen and (max-width: 650px) {
+    .top-and-bottom-bg {
+}
 /*Start section8-responsive*/
 @media screen and (max-width: 650px) {
   .hide {
@@ -156,7 +190,22 @@
 
 /*Start section9-responsive*/
 @media screen and (max-width: 650px) {
-  /*End section9-responsive*/
+    .blogpost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    }
+    .blocks {
+    padding-left: 93px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    }
+    .tittle {
+    padding-left: 50px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -167,10 +216,8 @@
     background-position: top, bottom;
     background-size: 1900px;
     background-size: 2000px;
-  }
+    }
 }
-
-/*bg-top*/
 
 /* @media screen and (max-width: 1200px) {
     .subsection { 
