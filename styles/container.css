@@ -1,6 +1,12 @@
-#section1 {
-  width: 66%;
-  color: white;
+#section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.subsection {
+  width: 1130px;
+  /* max-width: 1250px; */
+  margin: 10px;
 }
 
 body {
@@ -18,8 +24,6 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /*flex-wrap: nowrap;
-    flex-direction: row; */
 }
 .services {
   max-width: 250px;
@@ -28,6 +32,14 @@ body {
   box-shadow: 5px 10px 10px rgb(247, 247, 247);
   text-align: center;
   margin-top: 55px;
+}
+
+.services h2 {
+  font-size: 25px;
+}
+
+.services a {
+  font-size: 13px;
 }
 
 .title > h1 {
@@ -51,7 +63,6 @@ body {
   margin-bottom: 2em;
 }
 .section1 {
-  width: 66%;
   color: white;
 }
 .main-container {
@@ -80,4 +91,10 @@ body {
 
 .clean {
   color: black;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
