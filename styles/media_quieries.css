@@ -3,8 +3,8 @@
   body {
     margin: 0;
     overflow-x: hidden;
-
-    .presentation {
+  }
+  .presentation {
     width: 100%;
     border: none;
     box-sizing: border-box;
@@ -29,32 +29,30 @@
     margin-top: 30px;
   }
 }
-/*End section1-presentation-responsive*/
 
+/*End section1-presentation-responsive*/
 
 /*Start section3-responsive*/
 @media screen and (max-width: 650px) {
-    #section3 {
+  #section3 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    }
-    .image1 {
+  }
+  .image1 {
     width: 500px;
     margin-right: 50px;
     margin-top: 1;
-    }
-    .description3 {
+  }
+  .description3 {
     text-align: left;
     margin-left: 50px;
-    }
+  }
 }
 /*Start section3-responsive*/
-
-
 
 /*Start section4-responsive*/
 @media screen and (max-width: 650px) {
@@ -67,22 +65,22 @@
     flex-wrap: wrap-reverse;
     /* background: gray; */
   }
-
-  .description4 {
-    padding: 0;
-    background: none;
-    background-image: none;
-    text-align: left;
-
-
-  .image-related4 {
-    margin-top: 50px;
-  }
-
-  .image-related4 .img {
-    width: 200px;
-  }
 }
+
+.description4 {
+  padding: 0;
+  background: none;
+  background-image: none;
+  text-align: left;
+}
+.image-related4 {
+  margin-top: 50px;
+}
+
+.image-related4 .img {
+  width: 200px;
+}
+
 /*End section4-responsive*/
 
 /*Start section5-responsive*/
@@ -123,7 +121,7 @@
   button {
     margin-top: 50px;
     margin-left: 0;
-    }
+  }
 }
 /*End section6-responsive*/
 
@@ -177,16 +175,16 @@
 /*bg-top*/
 @media screen and (max-width: 650px) {
     .top-and-bottom-bg {
-=======
+}
 /*Start section8-responsive*/
 @media screen and (max-width: 650px) {
-    .hide {
-        display: none;
-    }
-    
- .review {
-     width: 90%;
- }
+  .hide {
+    display: none;
+  }
+
+  .review {
+    width: 90%;
+  }
 }
 /*End section8-responsive*/
 
@@ -210,12 +208,8 @@
     }
 }
 
-/*End section9-responsive*/
-
-  
 @media screen and (max-width: 650px) {
   .top-and-bottom-bg {
->>>>>>> 489e8b261483698bcdf5caa588d72cfd62aebf23
     background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg"),
       url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/footer-bg.svg");
     background-repeat: no-repeat, no-repeat;
@@ -224,11 +218,6 @@
     background-size: 2000px;
     }
 }
-
-/*bg-top*/
-=======
-  
-/*bg-top*/
 
 /* @media screen and (max-width: 1200px) {
     .subsection { 
@@ -344,4 +333,3 @@
     height: 200px;
   }
 }
-

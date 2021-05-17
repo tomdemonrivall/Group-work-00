@@ -48,28 +48,29 @@ li {
 /*
 Responsive*/
 
-    .topnav .icon {
+.topnav .icon {
   display: none;
 }
 
 .nav .around .align-c {
-   display: flex;
+  display: flex;
   justify-content: center;
 }
 
-
 @media screen and (max-width: 650px) {
-  .topnav a:not(:first-child)   {
+  .topnav a:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
     float: right;
-    display:block;
-    
+    display: block;
+  }
 }
 
 @media screen and (max-width: 650px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 90%;
@@ -80,7 +81,6 @@ Responsive*/
     display: block;
     text-align: left;
   }
- 
 }
 
 .home {
