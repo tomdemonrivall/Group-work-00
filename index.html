@@ -40,22 +40,34 @@
   </head>
   <body >
     <div class="main-container top-and-bottom-bg">
-      <div id="section">
-        <div class="section1 subsection border">
-          <div class="nav around align-c">
-            <logo>
-              <img class="logo.svg" src="images/logo.svg" alt="logo" />
-            </logo>
-            <ul class="summary row around align-c">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Why</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><button class="button-download" />Download Now</li>
-            </ul>
-          </div>
+      <div class="section1 border">
+        <div class="nav around align-c">
+          <logo>
+            <img class="logo.svg" src="images/logo.svg" alt="logo" />
+          </logo>
+          <ul class="summary row around align-c topnav" id="myTopnav">
+            <a href="#home" class="active home">Home</a>
+            <a href="#news">Features</a>
+            <a href="#contact">About</a>
+            <a href="#home" >Why</a>
+            <a href="#news">Team</a>
+            <a href="#contact">Blog</a>
+            <a class="button-d" href="#"><button class="button-download">Download</button></a>
+            
+            
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </ul>
+        </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
 
           <div class="presentation">
             <h2 class="h2">Basic - SaaS Landing Page</h2>
@@ -135,7 +147,7 @@
           </div>
         </div>
       </div>
-      <div id="section">
+      <div id="section" class="wavy-right">
         <div id="section3" class="subsection">
           <div class="description">
             <hr class="redline" />
@@ -154,22 +166,24 @@
             <button class="button-try">Try it Free</button>
           </div>
 
-          <div class="image-related">
+          <div>
             <object
               class="image1"
               data="images/about1.svg"
-              width="600"
-              height="600"
+              width="550"
+              height="550"
             >
             </object>
           </div>
         </div>
       </div>
-      <div id="section">
+      <div id="section" class="wavy-left">
         <div id="section4" class="subsection">
-          <div class="image-related4">
+          <div>
             <img
               src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about2.svg"
+              width="550"
+              height="550"
             />
           </div>
 
@@ -189,7 +203,7 @@
         </div>
       </div>
 
-      <div id="section">
+      <div id="section" class="wavy-right">
         <div id="section5" class="container subsection">
           <div class="description">
             <div class="redline"></div>
@@ -208,9 +222,9 @@
           <div class="image-related about3">
             <img
               src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about3.svg"
-              width="500"
-              height="500"
-              />
+              width="550"
+              height="550"
+            />
           </div>
         </div>
       </div>
