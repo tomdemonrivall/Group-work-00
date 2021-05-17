@@ -38,7 +38,7 @@
 .button-subscribe {
   font-family: "font-awesome", sans-serif;
   font-size: 85%;
-  width: 25%;
+  /* width: 25%; */
   min-width: 70px;
   /* height: 50px; */
   background: rgb(2, 0, 36);

@@ -77,7 +77,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 973px; */
+  margin-bottom: 5em;
 }
 .footer-bg {
   background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
