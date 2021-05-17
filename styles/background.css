@@ -5,3 +5,17 @@
   background-position: top, bottom;
   background-size: contain, contain;
 }
+.wavy-right{
+  background-image: url("../images/about-shape-1.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right center;
+
+}
+.wavy-left{
+  background-image: url("../images/about-shape-2.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: left center;
+
+}
