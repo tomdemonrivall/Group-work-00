@@ -150,7 +150,13 @@
 
 /*Start section8-responsive*/
 @media screen and (max-width: 650px) {
+    .hide {
+        display: none;
+    }
     
+ .review {
+     width: 90%;
+ }
 }
 /*End section8-responsive*/
 
