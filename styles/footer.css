@@ -103,6 +103,7 @@
   border-radius: 15px;
   box-shadow: 5px -5px 10px lightgrey;
   font-size: 120%;
+  flex-wrap: wrap;
 }
 
 .font-plus {
@@ -120,6 +121,7 @@
 .half {
   width: 45%;
   margin: 5px;
+  min-width: 315px;
 }
 input[type="email" i] {
   padding: 0px;

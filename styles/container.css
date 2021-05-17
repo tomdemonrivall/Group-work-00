@@ -4,19 +4,18 @@
   justify-content: center;
 }
 .subsection {
-  width: 1130px;
+  /* width: 1130px; */
+  /* min-width: 1130px; */
   /* max-width: 1250px; */
   margin: 10px;
 }
 
 body {
-  /* height: 3000px; */
-
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow: auto;
-  }
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: auto;
+}
 
 .center {
   display: flex;
