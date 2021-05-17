@@ -236,9 +236,59 @@
     }
 } */
 
+@media (min-width: 578px) {
+  .subsection {
+    width: 550px;
+  }
+  #email-form {
+    border: 0px solid lightgrey;
+    border-radius: 6px;
+    flex-direction: column;
+  }
+  .email {
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .half {
+    width: 80%;
+  }
+  .button-subscribe {
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+  }
+  .subscribe {
+    height: 200px;
+  }
+}
+
 @media (min-width: 650px) {
   .subsection {
     width: 600px;
+  }
+  #email-form {
+    border: 0px solid lightgrey;
+    border-radius: 6px;
+    flex-direction: column;
+  }
+  .email {
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .half {
+    width: 80%;
+  }
+  .button-subscribe {
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+  }
+  .subscribe {
+    height: 200px;
   }
 }
 
@@ -246,10 +296,52 @@
   .subsection {
     width: 950px;
   }
+
+  #email-form {
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    flex-direction: row;
+  }
+  .email {
+    border: 0px solid lightgrey;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .half {
+    width: 45%;
+  }
+  .button-subscribe {
+    width: 25%;
+  }
+  .subscribe {
+    height: 180px;
+  }
 }
 
 @media (min-width: 1200px) {
   .subsection {
     width: 1130px;
   }
+  .button-subscribe {
+    width: 25%;
+  }
+  #email-form {
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    flex-direction: row;
+  }
+  .email {
+    border: 0px solid lightgrey;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .half {
+    width: 45%;
+  }
+  .subscribe {
+    height: 200px;
+  }
 }
+
