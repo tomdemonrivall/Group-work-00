@@ -18,10 +18,9 @@
 } */
 
 .footer {
-  width: 66%;
   color: white;
   display: flex;
-  
+
   /* flex-wrap: wrap; */
 }
 .row {
@@ -94,7 +93,6 @@
   display: block;
 }
 .subscribe {
-  width: 66%;
   height: 180px;
   background-color: white;
   display: flex;
@@ -131,4 +129,9 @@ input[type="email" i] {
 
 input[type="email" i]:focus {
   outline-width: 0;
+}
+#Designed-by {
+  /* width: 100%; */
+  /* display: flex; */
+  justify-content: flex-start;
 }
