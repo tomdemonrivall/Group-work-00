@@ -14,7 +14,7 @@
   align-items: center;
   flex-direction: column;
   box-sizing: border-box;
-  margin-top: 55px;
+
 }
 
 .h1 {
@@ -55,4 +55,9 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
+}
+.clients-logo img {
+  opacity: 0.5;
+  width: 15%;
+  height: auto;
 }

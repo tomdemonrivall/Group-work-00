@@ -18,10 +18,9 @@
 } */
 
 .footer {
-  width: 66%;
   color: white;
   display: flex;
-  
+
   /* flex-wrap: wrap; */
 }
 .row {
@@ -94,7 +93,6 @@
   display: block;
 }
 .subscribe {
-  width: 66%;
   height: 180px;
   background-color: white;
   display: flex;
@@ -105,6 +103,7 @@
   border-radius: 15px;
   box-shadow: 5px -5px 10px lightgrey;
   font-size: 120%;
+  flex-wrap: wrap;
 }
 
 .font-plus {
@@ -118,10 +117,13 @@
 #email-form {
   border: 1px solid lightgrey;
   border-radius: 6px;
+  display: flex;
+  flex-direction: row;
 }
 .half {
   width: 45%;
   margin: 5px;
+  min-width: 315px;
 }
 input[type="email" i] {
   padding: 0px;
@@ -131,4 +133,9 @@ input[type="email" i] {
 
 input[type="email" i]:focus {
   outline-width: 0;
+}
+#Designed-by {
+  /* width: 100%; */
+  /* display: flex; */
+  justify-content: flex-start;
 }

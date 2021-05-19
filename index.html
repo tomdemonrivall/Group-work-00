@@ -7,47 +7,81 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <title></title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link rel="stylesheet" href="styles/background.css" />
     <link rel="stylesheet" href="styles/button.css" />
     <link rel="stylesheet" href="styles/container.css" />
     <link rel="stylesheet" href="styles/footer.css" />
-    <link rel="stylesheet" href="styles/media_quieries.css" />
+    <link rel="stylesheet" href="styles/section8.css" />
     <link rel="stylesheet" href="styles/nav.css" />
     <link rel="stylesheet" href="styles/presentation.css" />
     <link rel="stylesheet" href="styles/section3.css" />
     <link rel="stylesheet" href="styles/section4.css" />
     <link rel="stylesheet" href="styles/section5.css" />
-    <link rel="stylesheet" href="styles/section7.css"/>
+    <link rel="stylesheet" href="styles/section7.css" />
     <link rel="stylesheet" href="styles/text-style.css" />
     <link rel="stylesheet" href="styles/section6.css" />
     <link rel="stylesheet" href="styles/section8.css" />
-    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/media_quieries.css" />
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/section9Blog.css" />
     <link rel="stylesheet" href="styles/text-style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://use.fontawesome.com/349d4922e4.js"></script>
   </head>
+<<<<<<< HEAD
   <body class="top-and-bottom-bg">
     <div class="main-container">
       <div class="section1 border">
+=======
+  <body>
+    <div class="main-container top-and-bottom-bg">
+      <div class="section1 border subsection">
+>>>>>>> ac1d2d0d23422b49e3a515cdae82503c335c3065
         <div class="nav around align-c">
           <logo>
             <img class="logo.svg" src="images/logo.svg" alt="logo" />
           </logo>
-          <ul class="summary row around align-c">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Why</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><button class="button-download" />Download Now</li>
+          <ul class="summary row around align-c topnav" id="myTopnav">
+            <a href="#home" class="active home">Home</a>
+            <a href="#news">Features</a>
+            <a href="#contact">About</a>
+            <a href="#home">Why</a>
+            <a href="#news">Team</a>
+            <a href="#contact">Blog</a>
+            <a class="button-d" href="#"
+              ><button class="button-download">Download</button></a
+            >
+
+            <a
+              href="javascript:void(0);"
+              style="font-size: 15px"
+              class="icon"
+              onclick="myFunction()"
+              >&#9776;</a
+            >
           </ul>
         </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
 
         <div class="presentation">
           <h2 class="h2">Basic - SaaS Landing Page</h2>
@@ -63,373 +97,433 @@
           />
         </div>
 
+
         <div class="clients-logo">
-          <img
-            src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/brand-1.png"
-          />
-          <img
-            src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/brand-2.png"
-          />
-          <img
-            src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/brand-3.png"
-          />
-          <img
-            src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/brand-4.png"
-          />
-          <img
-            src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/brand-5.png"
-          />
+          <img src="images/brand-1.png" />
+          <img src="images/brand-2.png" />
+          <img src="images/brand-3.png" />
+          <img src="images/brand-4.png" />
+          <img src="images/brand-5.png" />
         </div>
       </div>
 
-      <div class="line1"> </div>
 
-      <div class="About"> </div>
-      <div id="Features">
-        <div class="title container">
-          <h2
-            ><strong>Clean and simple design,</strong> Comes with everything
-            you<br />
-            need to get strated !</h2
-          >
+      <div class="line1" style="margin: auto"> </div>
+      
+      
+      <div id="section">
+        <div id="Features" class="subsection">
+          <div class="title container subsection">
+            <h2 class="avantages"
+              ><strong>Clean and simple design,</strong> Comes with everything
+              you need to get strated !</h2
+            >
 
-          <div class="avantages container">
-            <div class="services">
-              <img src="images\services-shape-1.svg" />
-              <h2><b>Clean</b></h2>
-              <p
-                >Lorem ipsum dolor sit amet consectetur, adipisicing elit
-                adipisicing elit</p
-              >
-              <a class="clean"
-                >Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-              </a>
-            </div>
-            <div class="services">
-              <img src="images\services-shape-2.svg" />
-              <h2><b>Robust</b></h2>
-              <p
-                >Lorem ipsum dolor sit amet consectetur, adipisicing elit
-                adipisicing elit.</p
-              >
-              <a class="clean"
-                >Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-              </a>
-            </div>
-            <div class="services">
-              <img src="images\services-shape-3.svg" />
-              <h2><b>Powerful</b></h2>
-              <p
-                >Lorem ipsum dolor sit amet consectetur, adipisicing elit
-                adipisicing elit.</p
-              >
-              <a class="clean"
-                >Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-              </a>
+            <div class="between subsection">
+              <div class="services">
+                <img src="images\services-shape-1.svg" />
+                <h2><b>Clean</b></h2>
+                <p
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                  adipisicing elit</p
+                >
+                <a class="clean"
+                  >Learn More
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="services">
+                <img src="images\services-shape-2.svg" />
+                <h2><b>Robust</b></h2>
+                <p
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                  adipisicing elit.</p
+                >
+                <a class="clean"
+                  >Learn More
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="services">
+                <img src="images\services-shape-3.svg" />
+                <h2><b>Powerful</b></h2>
+                <p
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                  adipisicing elit.</p
+                >
+                <a class="clean"
+                  >Learn More
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div id="section" class="wavy-right">
+        <div id="section3" class="subsection">
+          <div class="description">
+            <hr class="redline" />
+            <h2
+              ><b>Quick & Easy</b> to Use <br />
+              Bootstrap Template</h2
+            >
+            <p
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident</p
+            >
+            <button class="button-try">Try it Free</button>
+          </div>
 
-      <div id="section3">
-        <div class="description">
-          <hr class="redline" />
-          <h2
-            ><b>Quick & Easy</b> to Use <br />
-            Bootstrap Template</h2
-          >
-          <p
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident</p
-          >
-          <button class="button-try">Try it Free</button>
+          <div>
+            <object
+              class="image1"
+              data="images/about1.svg"
+              width="550"
+              height="550"
+            >
+            </object>
+          </div>
         </div>
+      </div>
+      <div id="section" class="wavy-left">
+        <div id="section4" class="subsection">
+          <div>
+            <img
+              src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about2.svg"
+              width="550"
+              height="550"
+            />
+          </div>
 
-        <div class="image-related">
-          <object
-            class="image1"
-            data="images/about1.svg"
-            width="600"
-            height="600"
-          >
-          </object>
-         
+          <div class="description4">
+            <div class="redline"></div>
+            <h2 class="modern"><b>Modern design</b> with Essential Features</h2>
+            <p
+              >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ae rebum. Step clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing</p
+            >
+            <button class="button-try">Try it free</button>
+          </div>
         </div>
       </div>
 
-      <div id="section4">
-        <div class="image-related4">
-          <img
-            src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about2.svg"
-          />
-        </div>
+      <div id="section" class="wavy-right">
+        <div id="section5" class="container subsection">
+          <div class="description">
+            <div class="redline"></div>
+            <h2>Crafted for <b>Saas, App and software Landing page</b></h2>
+            <p
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident</p
+            >
+            <button class="button-try">Try it Free</button>
+          </div>
 
-
-        <div class="description4">
-          <div class="redline"></div>
-          <h2 class="modern"
-            ><b>Modern design</b> with Essential
-            Features</h2>
-          <p
-            >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo
-            dolores
-            et ae rebum. Step clita kasd gubergren, no sea takimata sanctus
-            est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-            consetetur
-            sadipscing</p>
-          <button class="button-try">Try it free</button>
-        </div>
-      </div>
-
-      <div id="section5" class="container">
-        <div class="description">
-          <div class="redline"></div>
-          <h2>Crafted for <b>Saas, App and software Landing page</b></h2>
-          <p
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident</p
-          >
-          <button class="button-try">Try it Free</button>
-        </div>
-
-        <div class="image-related about3">
-          <img
-            src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about3.svg"
-          />
+          <div class="image-related about3">
+            <img
+              src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about3.svg"
+              width="550"
+              height="550"
+            />
+          </div>
         </div>
       </div>
 
-      <div id="section6">
-            <div class="position">
-              <img class="img2" src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/video.png"/>
-            </div>
+      <div id="section">
+        <div id="section6" class="subsection">
+          <div class="position">
+            <img
+              class="img2"
+              src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/video.png"
+            />
+          </div>
 
-              <div class="description6">
-                <div class="redline"></div>
-                <h2 class="Modern"><b>Cool facts</b> about this app</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
-                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat, sed diam voluptua.</p>
-                <button class="blue"><div class="buttonblue"><b>125K</b><br/>Downloads</div></button>
-                <button class="pink"><div class="buttonpink"><b>87K</b><br/>Active Users</div></button>
-                <button class="darkblue"><div class="buttondarkblue"><b>4.8</b><br/>User Rating</div></button>
-              </div>
-              
+          <div class="description6">
+            <div class="redline"></div>
+            <h2 class="Modern"><b>Cool facts</b> about this app</h2>
+            <p
+              >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.</p
+            >
+            <button class="blue"
+              ><div class="buttonblue"><b>125K</b><br />Downloads</div></button
+            >
+            <button class="pink"
+              ><div class="buttonpink"
+                ><b>87K</b><br />Active Users</div
+              ></button
+            >
+            <button class="darkblue"
+              ><div class="buttondarkblue"
+                ><b>4.8</b><br />User Rating</div
+              ></button
+            >
+          </div>
+        </div>
       </div>
 
       <div class="separator"></div>
+      <div id="section">
+        <div id="Team" class="subsection">
+          <div class="title-team">
+            <hr class="redline-team" />
+            <h2
+              >Meet Our
+              <b
+                >Creative Team <br />
+                Members</b
+              ></h2
+            >
+          </div>
 
-      <div id="Team">
-        <div class="title-team">
-          <hr class="redline-team" />
-          <h2
-            >Meet Our
-            <b
-              >Creative Team <br />
-              Members</b
-            ></h2
-          >
+          <div class="team">
+            <div class="team1">
+              <button class="btn-social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+              </button>
+
+              <h3>Isabela Moreira </h3>
+              <p class="pteam">Founder and CEO</p>
+            </div>
+
+            <div class="team2">
+              <button class="btn-social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+              </button>
+              <h3>Elon Musk</h3>
+              <p class="pteam">Sr.Software Engineer</p>
+            </div>
+            <div class="team3">
+              <button class="btn-social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+              </button>
+              <h3>Fiona Smith</h3>
+              <p class="pteam">Business Development Manager</p>
+            </div>
+          </div>
         </div>
-
-        <div class="team">
-          <div class="team1">
-            <button class="btn-social">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-linkedin"></i>
-            </button>
-
-            <h3>Isabela Moreira </h3>
-            <p class="pteam">Founder and CEO</p>
+      </div>
+      <div id="section">
+        <div id="section8" class="subsection">
+          <div class="title">
+            <hr class="redline" />
+            <h2>
+              <b>Users sharing</b><br />
+              their experience</h2
+            >
           </div>
 
-          <div class="team2">
-            <button class="btn-social">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-linkedin"></i>
-            </button>
-            <h3>Elon Musk</h3>
-            <p class="pteam">Sr.Software Engineer</p>
+          <div class="reviews container">
+            <div class="review hide">
+              <div class="icons-review">
+                <div>
+                  <i class="fab fa-discourse cyan"></i>
+                  <i class="fab fa-discourse cyan"></i>
+                </div>
+                <div>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                </div>
+              </div>
+              <div>
+                <p
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium, laboriosam quaerat sed eum soluta deserunt
+                  obcaecati sunt doloribus impedit ut nisi cum! Aspernatur,
+                  exercitationem. Repellendus odit.</p
+                >
+              </div>
+              <div class="container-avatar">
+                <div class="author">
+                  <img class="author-pic" src="images\author-1.png " />
+                </div>
+                <div>
+                  <h4>Fajar Siddiq</h4>
+                  <p>COO, markerflix</p>
+                </div>
+              </div>
+            </div>
+            <div class="review selected">
+              <div class="icons-review container">
+                <div>
+                  <i class="fab fa-discourse pink2"></i>
+                  <i class="fab fa-discourse pink2"></i>
+                </div>
+                <div>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                </div>
+              </div>
+              <div
+                ><p
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium, laboriosam quaerat sed eum soluta deserunt
+                  obcaecati sunt doloribus impedit ut nisi cum! Aspernatur,
+                  exercitationem. Repellendus odit magni</p
+                >
+              </div>
+              <div class="container-avatar">
+                <div class="author">
+                  <img class="author-pic" src="images\author-1.png " />
+                </div>
+                <div>
+                  <h4>Jenny Deo</h4>
+                  <p>CEO, SapceX</p>
+                </div>
+              </div>
+            </div>
+            <div class="review hide">
+              <div class="icons-review container">
+                <div>
+                  <i class="fab fa-discourse cyan"></i>
+                  <i class="fab fa-discourse cyan"></i>
+                </div>
+                <div class>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                  <i class="lni lni-star-filled"></i>
+                </div>
+              </div>
+              <div
+                ><p
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium, laboriosam quaerat sed eum soluta deserunt
+                  obcaecati sunt doloribus impedit ut nisi cum! Aspernatur,
+                  exercitationem. Repellendus odit.</p
+                >
+              </div>
+              <div class="container-avatar">
+                <div class="author">
+                  <img class="author-pic" src="images\author-1.png " />
+                </div>
+
+                <div>
+                  <h4>Marjin Otte</h4>
+                  <p>UX spacialist, Yoast</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="team3">
-            <button class="btn-social">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-linkedin"></i>
-            </button>
-            <h3>Fiona Smith</h3>
-            <p class="pteam">Business Development Manager</p>
+          <div>
+            <ul class="nav-reviews">
+              <li
+                ><a href=""><i class="fas fa-circle first"></i></a
+              ></li>
+              <li
+                ><a href=""><i class="fas fa-circle"></i></a
+              ></li>
+              <li
+                ><a href=""><i class="fas fa-circle"></i></a
+              ></li>
+              <li
+                ><a href=""><i class="fas fa-circle"></i></a
+              ></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="section">
+        <div id="Blog" class="subsection">
+          <div class="tittle">
+            <div class="redline"></div>
+            <h2>Our Recent <b> Blog Posts </b></h2>
+          </div>
+
+          <div class="blogposts subsection">
+            <div class="blocks">
+              <img
+                class="blog"
+                src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/blog-1.jpg"
+              />
+              <div>
+                <p class="padmin"
+                  >Posted by: Admin&nbsp;&nbsp;&nbsp;03 June, 2023</p
+                >
+              </div>
+              <p class="pblog"
+                >Lorem ipsuamet conset sadips cing<br />elitr seddiam nonu
+                eirmod tempor<br />invidunt labore.</p
+              >
+              <a class="link" href="#"
+                >Learn More <i class="fa fa-angle-right" aria-hidden="true"></i
+              ></a>
+            </div>
+
+            <div class="blocks">
+              <img
+                class="blog"
+                src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/blog-2.jpg"
+              />
+              <div>
+                <p class="padmin"
+                  >Posted by: Admin&nbsp;&nbsp;&nbsp;03 June, 2023</p
+                >
+              </div>
+              <p class="pblog"
+                >Lorem ipsuamet conset sadips cing<br />elitr seddiam nonu
+                eirmod tempor<br />invidunt labore.</p
+              >
+              <a class="link" href="#"
+                >Learn More <i class="fa fa-angle-right" aria-hidden="true"></i
+              ></a>
+            </div>
+
+            <div class="blocks">
+              <img
+                class="blog"
+                src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/blog-3.jpg"
+              />
+              <div>
+                <p class="padmin"
+                  >Posted by: Admin&nbsp;&nbsp;&nbsp;03 June, 2023</p
+                >
+              </div>
+              <p class="pblog"
+                >Lorem ipsuamet conset sadips cing<br />elitr seddiam nonu
+                eirmod tempor<br />invidunt labore.</p
+              >
+              <a class="link" href="#"
+                >Learn More <i class="fa fa-angle-right" aria-hidden="true"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
 
 
-      <div id="section8">
-        <div class="title">
-          <hr class="redline" />
-          <h2> <b>Users sharing</b><br> their experience</h2>
-        </div>
-    
-        <div class="reviews container">
-          <div class="review">
-            <div class="icons-review">
-              <div>
-                <i class="fab fa-discourse cyan"></i>
-                <i class="fab fa-discourse cyan"></i>
-              </div>
-              <div>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-              </div>
-            </div>
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
-              laboriosam quaerat sed eum soluta deserunt obcaecati sunt doloribus impedit ut nisi cum! Aspernatur,
-              exercitationem. Repellendus odit.</p>
-            </div>
-       <div class="container-avatar">
-        <div class="author">
-          <img class="author-pic" src="images\author-1.png ">
-         </div>
-              <div>
-                <h4>Fajar Siddiq</h4>
-                <p>COO, markerflix</p>
-              </div>
-            </div>
-    
-          </div>
-          <div class="review selected">
-            <div class="icons-review container">
-            <div>
-              <i class="fab fa-discourse pink2"></i>
-              <i class="fab fa-discourse pink2"></i>
-            </div>
-            <div>
-              <i class="lni lni-star-filled"></i>
-              <i class="lni lni-star-filled"></i>
-              <i class="lni lni-star-filled"></i>
-              <i class="lni lni-star-filled"></i>
-              <i class="lni lni-star-filled"></i>
-            </div>
-          </div>
-      <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
-              laboriosam quaerat sed eum soluta deserunt obcaecati sunt doloribus impedit ut nisi cum! Aspernatur,
-              exercitationem. Repellendus odit magni</p>
-            </div>
-       <div class="container-avatar">
-        <div class="author">
-          <img class="author-pic" src="images\author-1.png ">
-         </div>
-              <div>
-                <h4>Jenny Deo</h4>
-                <p>CEO, SapceX</p>
-              </div>
-            </div>
-    
-          </div>
-          <div class="review">
-            <div class="icons-review container">
-              <div>
-                <i class="fab fa-discourse cyan"></i>
-                <i class="fab fa-discourse cyan"></i>
-              </div>
-              <div class>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-              </div>
-            </div>
-      <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
-              laboriosam quaerat sed eum soluta deserunt obcaecati sunt doloribus impedit ut nisi cum! Aspernatur,
-              exercitationem. Repellendus odit.</p>
-            </div>
-       <div class="container-avatar">
-         <div class="author">
-           <img class="author-pic" src="images\author-1.png ">
-          </div>
-              
-              <div>
-                <h4>Marjin Otte</h4>
-                <p>UX spacialist, Yoast</p>
-              </div>
-            </div>
-    
-          </div>
-        </div>
-        <div class=nav-reviews>
-          <i class="fas fa-circle first"></i>
-          <i class="fas fa-circle"></i>
-          <i class="fas fa-circle"></i>
-          <i class="fas fa-circle"></i>
-        </div>
-      </div>
-
-
-
-       
-      <div id="Blog">
-        <div class="tittle">
-          <div class="redline"></div>
-          <h2>Our Recent <b> Blog Posts </b></h2>
-        </div>
-
-        <div class="blogposts">
-          <div class="blocks">
-            <img class="blog" src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/blog-1.jpg"/>
-            <div>
-              <p class="padmin">Posted by: Admin&nbsp;&nbsp;&nbsp;03 June, 2023</p>
-            </div>
-            <p class="pblog">Lorem ipsuamet conset sadips cing<br/>elitr seddiam nonu eirmod tempor<br/>invidunt labore.</p>
-            <a class="link" href="#">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-          </div>
-
-          <div class="blocks">
-            <img class="blog" src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/blog-2.jpg"/>
-            <div>
-              <p class="padmin">Posted by: Admin&nbsp;&nbsp;&nbsp;03 June, 2023</p>
-            </div>
-            <p class="pblog">Lorem ipsuamet conset sadips cing<br/>elitr seddiam nonu eirmod tempor<br/>invidunt labore.</p>
-            <a class="link" href="#">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-          </div>
-
-          <div class="blocks">
-            <img class="blog" src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/blog-3.jpg"/>
-            <div>
-              <p class="padmin">Posted by: Admin&nbsp;&nbsp;&nbsp;03 June, 2023</p>
-            </div>
-            <p class="pblog">Lorem ipsuamet conset sadips cing<br/>elitr seddiam nonu eirmod tempor<br/>invidunt labore.</p>
-            <a class="link" href="#">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div id="section10">
-        <div class="subscribe"> </div>
-      </div>
       <footer id="section11">
-        <div class="subscribe">
+        <div class="subscribe subsection row">
           <div class="font-plus half">
             <b>Subscribe Our Newsletter</b><br />
             get regular Updates
@@ -451,7 +545,7 @@
           </div>
           <!-- </div> -->
         </div>
-        <div class="footer row">
+        <div class="footer row subsection">
           <div class="column quarter">
             <logo>
               <img class="logo-title" src="images/logo.svg" alt="logo" />
@@ -493,11 +587,15 @@
               <li><a href="#">+809272561823</a></li>
               <li><a href="#">info@gmail.com</a></li>
               <li><a href="#">www.yourweb.com</a></li>
-              <li><a href="#">123 Stree New York City, United States Of America 750</a></li>
+              <li
+                ><a href="#"
+                  >123 Stree New York City, United States Of America 750</a
+                ></li
+              >
             </ul>
           </div>
         </div>
-        <div id="Designed-by" class="footer block margin-y">
+        <div id="Designed-by" class="footer block margin-y subsection">
           <hr />
           <div class="margin-t">
             Designed and Developed by Jonhson 30.6 group 00

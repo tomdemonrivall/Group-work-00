@@ -1,14 +1,22 @@
-#section1 {
-  width: 66%;
-  color: white;
+#section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.subsection {
+  /* width: 1130px; */
+  /* min-width: 1130px; */
+  /* max-width: 1250px; */
+  margin: 10px;
 }
 
 body {
-  /* height: 3000px; */
   margin: 0;
-  font-family: 'font-awesome', sans-serif;
-  /* border-right: 0; */
+  padding: 0;
+  width: 100%;
+  overflow: auto;
 }
+
 .center {
   display: flex;
   justify-content: center;
@@ -17,8 +25,6 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /*flex-wrap: nowrap;
-    flex-direction: row; */
 }
 .services {
   max-width: 250px;
@@ -58,8 +64,9 @@ body {
   margin-bottom: 2em;
 }
 .section1 {
-  width: 66%;
   color: white;
+   margin-bottom: 5em;
+}
 }
 .main-container {
   /* CSS moved yo the background.css file
@@ -72,7 +79,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 973px; */
 }
 .footer-bg {
   background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
@@ -87,4 +93,10 @@ body {
 
 .clean {
   color: black;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
