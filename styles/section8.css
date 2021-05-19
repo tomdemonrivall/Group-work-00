@@ -12,14 +12,15 @@
 }
 
 .review {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 25%;
-  height: 350px;
-  padding: 2em;
-  border-radius: 10px;
-  box-shadow: 5px 10px 10px rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    height: auto;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(247, 247, 247);
+    margin-bottom: 1.5em;
 }
 
 #section8 .redline {
@@ -77,7 +78,25 @@
     opacity: 1 !important;
     } */
 
-.nav-reviews > li > a > i:hover {
-  color: #fe7f6c;
-  opacity: 1 !important;
+ .nav-reviews > li > a >i:hover {
+        color: #fe7f6c;
+        opacity: 1 !important;
+    }
+    
+    
+.reviews.container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.reviews.container:first-child {
+    flex-shrink: 2;
+}
+.reviews.container:nth-child(2) {
+    flex-shrink: 2;
+}
+.reviews.container:nth-child(3) {
+    flex-shrink: 2;
 }

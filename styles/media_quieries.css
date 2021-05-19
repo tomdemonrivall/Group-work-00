@@ -1,62 +1,58 @@
 /*Start section1-presentation-responsive*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 400px) {
   body {
     margin: 0;
     overflow-x: hidden;
+  }
+  h2 {
+    font-size: 25px;
   }
   .presentation {
     width: 100%;
     border: none;
     box-sizing: border-box;
+    padding-right: 117px;
+    margin-right: 100px;
+    margin-top: 60px;
   }
-  .h1,
-  .h4p {
+  .h4p, {
     text-align: center;
+    font-size: 16px;
   }
-  .h4p {
+  .h2,
+  .h1 {
+    text-align: center;
     font-size: 25px;
   }
   .header-hero {
-    width: 500px;
-  }
+    width: 350px;
+    padding-bottom: 30px;
+    }
   .clients-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 30px;
+    width: 400px;
   }
 }
-
 /*End section1-presentation-responsive*/
 
 /*Start section3-responsive*/
-@media screen and (max-width: 650px) {
-  #section3 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+@media screen and (max-width: 400px) {
   .image1 {
-    width: 500px;
+    width: 324px;
     margin-right: 50px;
     margin-top: 1;
   }
   .description3 {
     text-align: left;
-    margin-left: 50px;
+    padding-left: 47px;
+    padding-right: 20px;
+    margin-bottom: -95px;
   }
 }
 /*Start section3-responsive*/
 
 /*Start section4-responsive*/
-@media screen and (max-width: 650px) {
-  #section4 {
+@media screen and (max-width: 400px) {
+  .subsection {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -65,40 +61,41 @@
     flex-wrap: wrap-reverse;
     /* background: gray; */
   }
-}
-
-.description4 {
-  padding: 0;
-  background: none;
-  background-image: none;
-  text-align: left;
-}
-.image-related4 {
-  margin-top: 50px;
-}
-
-.image-related4 .img {
-  width: 200px;
+  .description4 {
+    text-align: left;
+    margin-bottom: -83px;
+    padding-left: 54px;
+    padding-right: 20px;
+  }
+  .img4 {
+    width: 324px;
+    margin-bottom: -84px;
+    margin-top: -248px;
+  }
 }
 
 /*End section4-responsive*/
 
 /*Start section5-responsive*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 400px) {
   .image-related img {
     width: 400px;
     margin-right: 50px;
+    margin-top: -77px;
   }
   .description {
     text-align: left;
     margin-right: 50px;
+    margin-top: 100px;
+    padding-left: 17px;
+    padding-right: 20px;
   }
 }
 /*End section5-responsive*/
 
 /*Start section6-responsive*/
-@media screen and (max-width: 650px) {
-  .subsection {
+@media screen and (max-width: 400px) {
+    .subsection {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -109,18 +106,25 @@
   }
   .position {
     background-size: 350px 350px;
-    width: 150px;
-    height: 186, 5px;
-    margin-left: 0;
-    margin-right: 266px;
-    margin-top: 50px;
+    margin-right: 267px;
+    background-size: 350px 350px;
+    width: 166px;
+  }
+  .img2 {
+    width: 333px;
+    height: 287px;
+    margin-left: 28px;
+    margin-top: 10px;
   }
   .description6 {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-left: 38px;
   }
-  button {
-    margin-top: 50px;
-    margin-left: 0;
+  .blue,
+  .pink,
+  .darkblue {
+    width: 101px;
+    height: 83px;
   }
 }
 /*End section6-responsive*/
@@ -128,91 +132,56 @@
 /*Start section7-responsive*/
 @media screen and (max-width: 650px) {
   .team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: 150px;
   }
-  .title-team,
-  .redline-team {
-    margin-right: 100px;
+  .title-team {
+  margin-right: 219px;
   }
 }
 /*Start section7-responsive*/
 
-/*Start section9-responsive*/
-@media screen and (max-width: 650px) {
-  .blogpost {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    flex-wrap: nowrap;
-  }
-  .blocks {
-    padding-left: 93px;
-    margin-bottom: 60px;
-    margin-top: 30px;
-  }
-  .tittle {
-    padding-left: 50px;
-  }
-}
-
-/*End section9-responsive*/
-
-/*Start footer-responsive*/
-
-/*End footer-responsive*/
-
-/*bg-top*/
-/* @media screen and (max-width: 650px) {
-    .top-and-bottom-bg {
-} */
 /*Start section8-responsive*/
-@media screen and (max-width: 864px) {
+
+
+
+@media screen and (max-width: 868px) {
+
   .hide {
     display: none;
   }
-
   .review {
-    width: 80%;
+    width: 67%;
   }
 }
 /*End section8-responsive*/
 
-/*Start section9-responsive*/
-@media screen and (max-width: 650px) {
-  .blogpost {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    flex-wrap: nowrap;
-  }
-  .blocks {
-    padding-left: 93px;
-    margin-bottom: 60px;
-    margin-top: 30px;
-  }
-  .tittle {
-    padding-left: 50px;
-  }
-}
 
-@media screen and (max-width: 650px) {
+/* Start section9-responsive */
+@media screen and (max-width: 400px) {
+    .blocks {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 29px;
+    }
+    .tittle {
+    padding-left: -5px;
+    }
+}
+/* End section9-responsive */
+
+@media screen and (max-width: 400px) {
   .top-and-bottom-bg {
     background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg"),
       url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/footer-bg.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom;
-    background-size: 1900px;
-    background-size: 2000px;
-  }
+    background-size: 1000px;
+    }
 }
 
 /* @media screen and (max-width: 1200px) {
