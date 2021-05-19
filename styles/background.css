@@ -1,3 +1,21 @@
+#section1 {
+  background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+#section11 {
+  background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/footer-bg.svg");
+  background-position: top center;
+  z-index: -1;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
 
 @media only screen and (max-device-width: 658px) {
   .top-and-bottom-bg {
@@ -40,4 +58,4 @@
     background-size:100% auto, 100% auto;
   }
 
-}
+} */
