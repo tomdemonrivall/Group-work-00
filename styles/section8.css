@@ -83,3 +83,11 @@ opacity: 0.5;
         opacity: 1 !important;
     }
     
+    
+.reviews.container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
