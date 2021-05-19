@@ -80,10 +80,16 @@
 
 @media (min-width: 750px) {
   .wavy-right {
-    background: none;
+    background-image: url("../images/about-shape-1.svg");
+    background-repeat: no-repeat;
+    background-size: auto 40%;
+    background-position: right center;
   }
   .wavy-left {
-    background: none;
+    background-image: url("../images/about-shape-2.svg");
+    background-repeat: no-repeat;
+    background-size: auto 40%;
+    background-position: left center;
   }
 }
 

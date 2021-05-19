@@ -62,18 +62,17 @@
   color: white;
 }
 .quarter {
-  width: 25%;
-  min-width: 150px;
-  max-width: 220px;
+  width: 20%;
+  /* min-width: 150px;
+  max-width: 220px; */
   margin-left: 10px;
   margin-right: 10px;
 }
 .margin-b {
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 .logo-title {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0;
 }
 .aligned-r {
   padding-inline-start: 0;
@@ -84,6 +83,7 @@
 }
 .margin-t {
   margin-top: 30px;
+  padding-left: 25px;
 }
 .margin-y {
   margin-top: 30px;
@@ -178,9 +178,10 @@ input[type="email" i]:focus {
   font-size: inherit;
 }
 .footer.row.subsection {
-  width: 1050px;
+  max-width: 1050px;
   margin: auto;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .fa.fa-facebook,
 .fa.fa-twitter,
@@ -191,4 +192,13 @@ input[type="email" i]:focus {
 
 #Designed-by {
   width: 1050px;
+}
+.footer p,
+a {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+.margin-b p {
+  margin-top: 10px;
 }
