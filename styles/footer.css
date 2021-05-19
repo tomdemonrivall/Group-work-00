@@ -187,11 +187,15 @@ input[type="email" i]:focus {
   font-size:18px;
 }
 
-#Designed-by {
+/* #Designed-by {
   width: 1050px;
+} */
+
+.footer p,
+a {
+  font-family: "Lato", sans-serif;
 }
-.footer p, a  {
-  font-family: 'Lato', sans-serif;
+
   color: white;
   font-size: 18px;
 }
