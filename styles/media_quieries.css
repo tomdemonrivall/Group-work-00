@@ -333,3 +333,26 @@
     height: 200px;
   }
 }
+/*Footer mobile devices*/
+
+@media screen and (orientation: portrait) and (max-width: 650px){
+  .footer.row.subsection {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+   align-items: flex-start;
+   padding: 1em;
+  
+}
+.column.quarter.logo-media {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+.quarter {
+  width: 40%;
+}
+}
