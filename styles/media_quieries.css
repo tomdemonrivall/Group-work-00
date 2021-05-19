@@ -173,6 +173,8 @@
     .top-and-bottom-bg {
 } */
 /*Start section8-responsive*/
+
+
 @media screen and (max-width: 864px) {
   .hide {
     display: none;
