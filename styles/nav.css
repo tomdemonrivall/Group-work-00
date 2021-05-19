@@ -34,7 +34,8 @@ li {
 }
 
 .summary {
-  width: 450px;
+  /* width: 450px; */
+  padding-inline-start: 0px;
 }
 
 /* .border {
@@ -85,4 +86,8 @@ Responsive*/
 
 .home {
   margin-left: 90px;
+}
+#section1 {
+  display: flex;
+  justify-content: center;
 }

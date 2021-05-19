@@ -14,9 +14,11 @@
 
 .divhead {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  width: 97%;
+  margin: 10px;
   /* margin-top: 20px; */
 }
 
@@ -52,7 +54,7 @@
 }
 
 .menu-home {
-  margin-left: 50px;
+  margin-left: 10px;
 }
 
 .h2-title {
@@ -196,16 +198,30 @@ body {
     transform: translateX(-200px);
   }
 }
-@media (max-width: 650px) {
-.logo-head{
-  order
+
+@media (max-width: 575px) {
+  .menu-head {
+    order: 2;
+  }
+  .button-head {
+    order: 1;
+    display: none;
+  }
 }
+@media (min-width: 575px) {
+  .menu-head {
+    order: 2;
+  }
+  .button-head {
+    order: 1;
+    /* display: contents; */
+  }
 }
 @media (min-width: 650px) {
-  .content {
-    width: 43%;
+  .menu-head {
+    order: 1;
   }
-  #button {
-    margin: 30px;
+  .button-head {
+    order: 2;
   }
 }
