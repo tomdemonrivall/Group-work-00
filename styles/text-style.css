@@ -1,9 +1,15 @@
 @font-face {
-  font-family: 'font-awesome';
-  src: url('fonts/fontawesome-webfont.eot'); 
-  src: url('fonts/fontawesome-webfont.ttf');
+  font-family: "font-awesome";
+  src: url("fonts/fontawesome-webfont.eot");
+  src: url("fonts/fontawesome-webfont.ttf");
 }
 body p {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
 }
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+

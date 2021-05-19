@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/background.css" />
     <link rel="stylesheet" href="styles/button.css" />
     <link rel="stylesheet" href="styles/container.css" />
-    
+
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/section8.css" />
     <link rel="stylesheet" href="styles/nav.css" />
@@ -37,7 +37,8 @@
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -45,22 +46,15 @@
     <script src="https://use.fontawesome.com/349d4922e4.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="styles/scripts.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
-
-       
-   
-    <div  class="main-container">
-
-      <div id="section1" class="section1 border subsection header">
-
+    <div class="main-container">
+      <div id="section1">
         <!-- <div class="nav around align-c divhead"> -->
+        <div class="section1 border subsection header">
           <div class="divhead">
             <section class="sticky">
               <div class="bubbles">
-                  <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>
@@ -70,74 +64,83 @@
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>
-                
+                <div class="bubble"></div>
               </div>
             </section>
-          <div class="logo-head">
-<!-- =======
-      <div id="section1" class="section1 border subsection">
-        <div class="nav around align-c">
--->
-          <logo>
-            <img class="logo.svg logo-head" src="images/logo.svg" alt="logo" />
-          </logo></div>
-          <div class="menu-head">
-          <ul class="summary row around align-c topnav" id="myTopnav">
-            <a class="menu-home" href="#home" class="active home">Home</a>
-            <a class="menu-features" href=#Features>Features</a>
-            <a class="menu-about" href="#section3">About</a>
-            <a class="menu-why" href="#section4">Why</a>
-            <a class="menu-team" href="#Team">Team</a>
-            <a class="menu-blog" href="#Blog">Blog</a>
-          </div>
-            
-             <div class="button-head"><button class="button-download">Download Now</button></a></div> 
-            
+            <div class="logo-head">
+              <!-- =======
+          <div id="section1" class="section1 border subsection">
+            <div class="nav around align-c">
+          -->
+              <logo>
+                <img
+                  class="logo.svg logo-head"
+                  src="images/logo.svg"
+                  alt="logo"
+                /> </logo
+            ></div>
+            <div class="row">
+              <div class="menu-head">
+                <ul class="summary row around align-c topnav" id="myTopnav">
+                  <a class="menu-home" href="#home" class="active home">Home</a>
+                  <a class="menu-features" href="#Features">Features</a>
+                  <a class="menu-about" href="#section3">About</a>
+                  <a class="menu-why" href="#section4">Why</a>
+                  <a class="menu-team" href="#Team">Team</a>
+                  <a class="menu-blog" href="#Blog">Blog</a>
+                  <a
+                    href="javascript:void(0);"
+                    style="font-size: 15px"
+                    class="icon"
+                    onclick="myFunction()"
+                    >&#9776;</a
+                  >
+                </ul>
+              </div>
+              <a href="#"
+                ><button class="button-head button-download" />Download Now</a
+              >
+            </div>
 
             <!-- <a
-              href="javascript:void(0);"
-              style="font-size: 15px"
-              class="icon"
-              onclick="myFunction()"
-              >&#9776;</a
-            > -->
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-
-          </ul>
-        </div>
-        <script>
-          function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-              x.className += " responsive";
-            } else {
-              x.className = "topnav";
+                  href="javascript:void(0);"
+                  style="font-size: 15px"
+                  class="icon"
+                  onclick="myFunction()"
+                  >&#9776;</a
+                > -->
+          </div>
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
             }
-          }
-        </script>
-
-        <div class="presentation">
-          <h2 class="h2 h2-title">Basic - SaaS Landing Page</h2>
-          <h1 class="h1 h1-title">Kickstart Your SaaS or App Site</h1>
-          <p class="h4p p-header"
-            >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor</p
-          >
-          <button class="button-getstarted button-head">Get Started</button>
-          <img
-            class="header-hero header-laptop"
-            src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/header-hero.png"
-          />
-          <div class="clients-logo">
-            <img src="images/brand-1.png" />
-            <img src="images/brand-2.png" />
-            <img src="images/brand-3.png" />
-            <img src="images/brand-4.png" />
-            <img src="images/brand-5.png" />
+          </script>
+          <div class="presentation">
+            <h2 class="h2 h2-title">Basic - SaaS Landing Page</h2>
+            <h1 class="h1 h1-title">Kickstart Your SaaS or App Site</h1>
+            <p class="h4p p-header"
+              >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor</p>
+            <button class="button-getstarted button-head">Get Started</button>
+            <img
+              class="header-hero header-laptop"
+              src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/header-hero.png"
+            />
+            <div class="clients-logo">
+              <img src="images/brand-1.png" />
+              <img src="images/brand-2.png" />
+              <img src="images/brand-3.png" />
+              <img src="images/brand-4.png" />
+              <img src="images/brand-5.png" />
+            </div>
           </div>
         </div>
       </div>
-
       <div class="line1" style="margin: auto"> </div>
 
       <div id="section">
@@ -222,7 +225,8 @@
       <div id="section" class="wavy-left">
         <div id="section4" class="subsection">
           <div>
-            <img class="img4"
+            <img
+              class="img4"
               src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/about2.svg"
               width="550"
               height="550"
@@ -579,8 +583,11 @@
               <img class="logo-title" src="images/logo.svg" alt="logo" />
             </logo>
             <div class="margin-b">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-                cum tempore rerum aspernatur, excepturi ipsum aliquid sint at.</p>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas cum tempore rerum aspernatur, excepturi ipsum aliquid
+                sint at.</p
+              >
             </div>
             <div class="social-medias">
               <a href="#" img alt="Facebook" class="fa fa-facebook"></a>
@@ -629,9 +636,8 @@
             <p>Designed and Developed by Jonhson 30.6 group 00</p>
           </div>
         </div>
-        
+        <a href="#home" id="button"></a>
       </footer>
-      <a href="#home"id="button"></a>
     </div>
   </body>
 </html>

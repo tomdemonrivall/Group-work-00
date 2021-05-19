@@ -99,7 +99,7 @@
   align-items: center;
   justify-content: center;
   color: black;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   border-radius: 15px;
   box-shadow: 5px -5px 10px lightgrey;
   font-size: 120%;
@@ -183,22 +183,24 @@ input[type="email" i]:focus {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.fa.fa-facebook,
-.fa.fa-twitter,
-.fa.fa-instagram,
-.fa.fa-linkedin {
-  font-size: 18px;
+.fa.fa-facebook, .fa.fa-twitter,.fa.fa-instagram,.fa.fa-linkedin {
+  font-size:18px;
 }
 
-#Designed-by {
+/* #Designed-by {
   width: 1050px;
-}
+} */
 
 .footer p,
 a {
   font-family: "Lato", sans-serif;
+}
+
   color: white;
   font-size: 18px;
 }
-/* .margin-b p {
-} */
+
+.margin-b p {
+  margin-top: 10px;
+}
+
