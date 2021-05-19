@@ -51,6 +51,7 @@ body {
 }
 .title > h2 {
   text-align: center;
+  font-size: 25px;
 }
 #Features {
   display: flex;

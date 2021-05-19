@@ -3,6 +3,10 @@
     margin: 0;
     overflow-x: hidden;
   }
+  .pfooter {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
   .bubbles {
     display: none;
   }
@@ -16,9 +20,8 @@
     width: 100%;
     border: none;
     box-sizing: border-box;
-    padding-right: 140px;
-    margin-right: 536px;
-    margin-top: 60px;
+    padding-right: 55px;
+    margin-top: -75px;
   }
   .h4p {
     text-align: center;
@@ -49,7 +52,7 @@
   .description3 {
     text-align: left;
     padding-left: 47px;
-    padding-right: 20px;
+    padding-right: 38px;
     margin-bottom: -95px;
   }
 }
@@ -70,7 +73,7 @@
     text-align: left;
     margin-bottom: -83px;
     padding-left: 54px;
-    padding-right: 20px;
+    padding-right: 38px;
   }
   .img4 {
     width: 324px;
@@ -124,6 +127,7 @@
   .description6 {
     margin-top: 10px;
     margin-left: 38px;
+    padding-right: 38px;
   }
   .blue,
   .pink,
@@ -144,9 +148,28 @@
     box-sizing: border-box;
     margin-right: 100px;
   }
-  .title-team {
-    margin-right: 219px;
+  .team1,
+  .team2,
+  .team3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    height: 400px;
+    margin-left: 64px;
   }
+  .title-team {
+    padding-left: 50px;
+    padding-right: 61px;
+  }
+  .meet {
+    padding-right: 55px;
+    text-align: left;
+  }
+  /* .readline-team {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 16px;
+  } */
 }
 /*Start section7-responsive*/
 
@@ -171,10 +194,23 @@
     margin-left: 29px;
   }
   .tittle {
-    padding-left: -5px;
+    padding-left: 20px;
+    padding-right: 38px;
   }
 }
 /* End section9-responsive */
+
+@media (max-width: 400px) {
+  #email-form {
+    width: 200px;
+  }
+  .font-plus {
+    font-size: 140%;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
 
 @media screen and (max-width: 400px) {
   .top-and-bottom-bg {
