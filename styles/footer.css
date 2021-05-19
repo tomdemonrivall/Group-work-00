@@ -72,7 +72,7 @@
   margin-bottom: 15px;
 }
 .logo-title {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 .aligned-r {
@@ -103,6 +103,7 @@
   border-radius: 15px;
   box-shadow: 5px -5px 10px lightgrey;
   font-size: 120%;
+  flex-wrap: wrap;
 }
 
 .font-plus {
@@ -116,10 +117,13 @@
 #email-form {
   border: 1px solid lightgrey;
   border-radius: 6px;
+  display: flex;
+  flex-direction: row;
 }
 .half {
   width: 45%;
   margin: 5px;
+  min-width: 315px;
 }
 input[type="email" i] {
   padding: 0px;
@@ -134,4 +138,16 @@ input[type="email" i]:focus {
   /* width: 100%; */
   /* display: flex; */
   justify-content: flex-start;
+}
+.footer.row.subsection {
+  width: 1050px;
+  margin: auto;
+  justify-content: space-around;
+}
+.fa.fa-facebook, .fa.fa-twitter,.fa.fa-instagram,.fa.fa-linkedin {
+  font-size:18px;
+}
+
+#Designed-by {
+  width: 1050px;
 }
