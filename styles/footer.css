@@ -99,7 +99,7 @@
   align-items: center;
   justify-content: center;
   color: black;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   border-radius: 15px;
   box-shadow: 5px -5px 10px lightgrey;
   font-size: 120%;
@@ -182,11 +182,13 @@ input[type="email" i]:focus {
   margin: auto;
   justify-content: space-around;
 }
-.fa.fa-facebook, .fa.fa-twitter,.fa.fa-instagram,.fa.fa-linkedin {
-  font-size:18px;
+.fa.fa-facebook,
+.fa.fa-twitter,
+.fa.fa-instagram,
+.fa.fa-linkedin {
+  font-size: 18px;
 }
 
 #Designed-by {
   width: 1050px;
 }
-
