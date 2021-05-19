@@ -363,23 +363,23 @@
     max-width: 100%;
     margin-bottom: 2em;
   }
-  
-.quarter {
-  width: 40%;
-}
-  
-.margin-t {
-  margin-top: 30px;
-  padding-left: 0;
-}
-#Designed-by > hr {
-  width: 100%;
-}
-.clients-logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  height: 300px;
-}
+
+  .quarter {
+    width: 40%;
+  }
+
+  .margin-t {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  #Designed-by > hr {
+    width: 100%;
+  }
+  .clients-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 300px;
+  }
 }
