@@ -36,12 +36,13 @@
 }
 
 /* Button Subscribe */
-.button-subscribe {
+/* moved to footer.css */
+/* .button-subscribe {
   font-family: "font-awesome", sans-serif;
   font-size: 85%;
-  /* width: 25%; */
+  width: 25%;
   min-width: 70px;
-  /* height: 50px; */
+  height: 50px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -52,7 +53,7 @@
   color: white;
   border: none;
   border-radius: 0 6px 6px 0;
-}
+} */
 
 /* Button Get Started */
 .button-getstarted {

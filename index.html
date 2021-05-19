@@ -5,6 +5,7 @@
 <!--[if gt IE 8]>      <html class="no-js lt-ie9"><![endif]-->
 <html>
   <head>
+    <!-- https://preview.uideck.com/items/basic/ => original webpage -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -33,6 +34,8 @@
       href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/section9Blog.css" />
     <link rel="stylesheet" href="styles/text-style.css" />
     <link
@@ -44,22 +47,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="main-container top-and-bottom-bg">
-      <div class="section1 border subsection header">
+    <div  class="main-container">
+<!-- <<<<<<< HEAD -->
+      <div id="section1" class="section1 border subsection header">
         <!-- <div class="nav around align-c divhead"> -->
           <div class="divhead">
           <div class="logo-head">
+<!-- =======
+      <div id="section1" class="section1 border subsection">
+        <div class="nav around align-c">
+-->
           <logo>
             <img class="logo.svg logo-head" src="images/logo.svg" alt="logo" />
           </logo></div>
           <div class="menu-head">
           <ul class="summary row around align-c topnav" id="myTopnav">
             <a class="menu-home" href="#home" class="active home">Home</a>
-            <a class="menu-features" href="#news">Features</a>
-            <a class="menu-about" href="#contact">About</a>
-            <a class="menu-why" href="#home">Why</a>
-            <a class="menu-team" href="#news">Team</a>
-            <a class="menu-blog" href="#contact">Blog</a>
+            <a class="menu-features" href=#Features>Features</a>
+            <a class="menu-about" href="#section3">About</a>
+            <a class="menu-why" href="#section4">Why</a>
+            <a class="menu-team" href="#Team">Team</a>
+            <a class="menu-blog" href="#Blog">Blog</a>
           </div>
             
              <div class="button-head"><button class="button-download">Download Now</button></a></div> 
@@ -72,6 +80,8 @@
               onclick="myFunction()"
               >&#9776;</a
             > -->
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
           </ul>
         </div>
         <script>
@@ -99,7 +109,6 @@
           />
         </div>
 
-
         <div class="clients-logo">
           <img src="images/brand-1.png" />
           <img src="images/brand-2.png" />
@@ -109,10 +118,8 @@
         </div>
       </div>
 
-
       <div class="line1" style="margin: auto"> </div>
-      
-      
+
       <div id="section">
         <div id="Features" class="subsection">
           <div class="title container subsection">
@@ -523,7 +530,6 @@
         </div>
       </div>
 
-
       <footer id="section11">
         <div class="subscribe subsection row">
           <div class="font-plus half">
@@ -548,15 +554,15 @@
           <!-- </div> -->
         </div>
         <div class="footer row subsection">
-          <div class="column quarter">
+          <div class="column quarter logo-media">
             <logo>
               <img class="logo-title" src="images/logo.svg" alt="logo" />
             </logo>
             <div class="margin-b">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              cum tempore rerum aspernatur, excepturi ipsum aliquid sint at.
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                cum tempore rerum aspernatur, excepturi ipsum aliquid sint at.</p>
             </div>
-            <div>
+            <div class="social-medias">
               <a href="#" img alt="Facebook" class="fa fa-facebook"></a>
               <a href="#" img alt="Twitter" class="fa fa-twitter"></a>
               <a href="#" img alt="Instagram" class="fa fa-instagram"></a>
@@ -600,7 +606,7 @@
         <div id="Designed-by" class="footer block margin-y subsection">
           <hr />
           <div class="margin-t">
-            Designed and Developed by Jonhson 30.6 group 00
+            <p>Designed and Developed by Jonhson 30.6 group 00</p>
           </div>
         </div>
       </footer>
