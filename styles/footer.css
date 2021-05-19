@@ -4,8 +4,8 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  /* height: 800px; */
   width: 100%;
+  padding-top: 120px;
 }
 
 /* CSS moved yo the background.css file
@@ -62,18 +62,17 @@
   color: white;
 }
 .quarter {
-  width: 25%;
-  min-width: 150px;
-  max-width: 220px;
+  width: 20%;
+  /* min-width: 150px;
+  max-width: 220px; */
   margin-left: 10px;
   margin-right: 10px;
 }
 .margin-b {
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 .logo-title {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 0;
 }
 .aligned-r {
   padding-inline-start: 0;
@@ -84,6 +83,7 @@
 }
 .margin-t {
   margin-top: 30px;
+  padding-left: 25px;
 }
 .margin-y {
   margin-top: 30px;
@@ -93,13 +93,13 @@
   display: block;
 }
 .subscribe {
-  height: 180px;
+  height: 260px;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   color: black;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   border-radius: 15px;
   box-shadow: 5px -5px 10px lightgrey;
   font-size: 120%;
@@ -107,18 +107,22 @@
 }
 
 .font-plus {
-  font-size: 150%;
+  font-size: 190%;
 }
 .email {
-  height: 50px;
-  border: none;
-  width: 75%;
+  border: 2px solid #e1e1e1;
+  height: 65px;
+  padding: 0 30px;
+  border-radius: 5px;
+  width: 100%;
+  color: #2e2e2e;
 }
 #email-form {
   border: 1px solid lightgrey;
   border-radius: 6px;
   display: flex;
   flex-direction: row;
+  font-size: 85%;
 }
 .half {
   width: 45%;
@@ -128,7 +132,7 @@
 input[type="email" i] {
   padding: 0px;
   padding-left: 25px;
-  font-size: 85%;
+  font-size: inherit;
 }
 
 input[type="email" i]:focus {
@@ -138,4 +142,64 @@ input[type="email" i]:focus {
   /* width: 100%; */
   /* display: flex; */
   justify-content: flex-start;
+}
+
+.fborder {
+  border: 2px solid black;
+}
+
+.button-subscribe {
+  /* font-family: "font-awesome", sans-serif;
+  font-size: 85%;
+  min-width: 70px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 132, 99, 1) 0%,
+    rgba(255, 109, 154, 1) 100%
+  );
+  color: white;
+  border: none;
+  border-radius: 0 6px 6px 0; */
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  border-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 65px;
+  line-height: 65px;
+  padding: 0 25px;
+  border: 0;
+  color: #fff;
+  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background-size: 200%;
+  font-size: inherit;
+}
+.footer.row.subsection {
+  max-width: 1050px;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fa.fa-facebook,
+.fa.fa-twitter,
+.fa.fa-instagram,
+.fa.fa-linkedin {
+  font-size: 18px;
+}
+
+#Designed-by {
+  width: 1050px;
+}
+
+.footer p,
+a {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+.margin-b p {
+
 }
