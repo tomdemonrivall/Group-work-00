@@ -9,16 +9,16 @@
 
 .menu-head {
   margin-right: 15px;
-  margin-top: 15px;
+  /* margin-top: 5px; */
 }
 
 .divhead {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   width: 97%;
-  margin: 10px;
+  margin: 30px;
   /* margin-top: 20px; */
 }
 
@@ -30,7 +30,7 @@
 
 .logo-head {
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 /* .divhead {
@@ -78,7 +78,7 @@
 }
 
 .button-head {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .header-laptop {
