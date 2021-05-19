@@ -193,6 +193,7 @@ input[type="email" i]:focus {
 #Designed-by {
   width: 1050px;
 }
+
 .footer p,
 a {
   font-family: "Lato", sans-serif;
@@ -200,5 +201,5 @@ a {
   font-size: 18px;
 }
 .margin-b p {
-  margin-top: 10px;
+
 }

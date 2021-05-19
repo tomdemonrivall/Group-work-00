@@ -44,7 +44,7 @@
 
 .clients-logo {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -58,6 +58,7 @@
 }
 .clients-logo img {
   opacity: 0.5;
-  width: 15%;
+  width: 150px;
   height: auto;
+  padding: 1.5em;
 }
