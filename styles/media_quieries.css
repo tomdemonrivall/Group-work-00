@@ -370,7 +370,7 @@
     width: 45%;
   }
 }
-/*Footer mobile devices*/
+/*Footer mobile devices - Media queries*/
 
 @media screen and (orientation: portrait) and (max-width: 650px){
   .footer.row.subsection {
@@ -407,4 +407,4 @@
   height: 300px;
 }
 }
-}
+ 
