@@ -1,13 +1,13 @@
-#section {
+/* #section {
   width: 100%;
   display: flex;
   justify-content: center;
-}
+} */
 .subsection {
   /* width: 1130px; */
   /* min-width: 1130px; */
   /* max-width: 1250px; */
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 body {
@@ -17,7 +17,7 @@ body {
   overflow: auto;
 }
 
-.center {
+/* .center {
   display: flex;
   justify-content: center;
 }
@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
+} */
 .services {
   max-width: 250px;
   background-color: #ffffff;
@@ -75,10 +75,10 @@ body {
   background-position: top;
   background-size: contain; */
   /* height: 3600px; */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .footer-bg {
   background-image: url("https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/0e144cef6b397c3033893352716e75e00b6d8934/images/banner-bg.svg");

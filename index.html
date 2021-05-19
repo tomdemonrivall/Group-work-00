@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/background.css" />
     <link rel="stylesheet" href="styles/button.css" />
     <link rel="stylesheet" href="styles/container.css" />
+    
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/section8.css" />
     <link rel="stylesheet" href="styles/nav.css" />
@@ -26,6 +27,7 @@
     <link rel="stylesheet" href="styles/section6.css" />
     <link rel="stylesheet" href="styles/section8.css" />
     <link rel="stylesheet" href="styles/media_quieries.css" />
+    <link rel="stylesheet" href="styles/header.css" />
     <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" />
     <link
       href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
@@ -38,32 +40,38 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="https://use.fontawesome.com/349d4922e4.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="main-container top-and-bottom-bg">
-      <div class="section1 border subsection">
-        <div class="nav around align-c">
+      <div class="section1 border subsection header">
+        <!-- <div class="nav around align-c divhead"> -->
+          <div class="divhead">
+          <div class="logo-head">
           <logo>
-            <img class="logo.svg" src="images/logo.svg" alt="logo" />
-          </logo>
+            <img class="logo.svg logo-head" src="images/logo.svg" alt="logo" />
+          </logo></div>
+          <div class="menu-head">
           <ul class="summary row around align-c topnav" id="myTopnav">
-            <a href="#home" class="active home">Home</a>
-            <a href="#news">Features</a>
-            <a href="#contact">About</a>
-            <a href="#home">Why</a>
-            <a href="#news">Team</a>
-            <a href="#contact">Blog</a>
-            <a class="button-d" href="#"
-              ><button class="button-download">Download</button></a
-            >
+            <a class="menu-home" href="#home" class="active home">Home</a>
+            <a class="menu-features" href="#news">Features</a>
+            <a class="menu-about" href="#contact">About</a>
+            <a class="menu-why" href="#home">Why</a>
+            <a class="menu-team" href="#news">Team</a>
+            <a class="menu-blog" href="#contact">Blog</a>
+          </div>
+            
+             <div class="button-head"><button class="button-download">Download Now</button></a></div> 
+            
 
-            <a
+            <!-- <a
               href="javascript:void(0);"
               style="font-size: 15px"
               class="icon"
               onclick="myFunction()"
               >&#9776;</a
-            >
+            > -->
           </ul>
         </div>
         <script>
@@ -78,15 +86,15 @@
         </script>
 
         <div class="presentation">
-          <h2 class="h2">Basic - SaaS Landing Page</h2>
-          <h1 class="h1">Kickstart Your SaaS or App Site</h1>
-          <p class="h4p"
+          <h2 class="h2 h2-title">Basic - SaaS Landing Page</h2>
+          <h1 class="h1 h1-title">Kickstart Your SaaS or App Site</h1>
+          <p class="h4p p-header"
             >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor</p
           >
-          <button class="button-getstarted">Get Started</button>
+          <button class="button-getstarted button-head">Get Started</button>
           <img
-            class="header-hero"
+            class="header-hero header-laptop"
             src="https://raw.githubusercontent.com/rosaelenalinares/Group-work-00/master/images/header-hero.png"
           />
         </div>
